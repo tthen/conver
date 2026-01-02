@@ -40,6 +40,15 @@ def kilometers_to_yards (kilometers):
 def meters_to_feet (meters):
     return meters * 3.2808
 
+def meters_to_inches (meters):
+    return meters * 39.37
+
+def micrometers_to_anstrong (micrometers):
+    return micrometers * 1.0E04
+
+def micrometers_to_centimeters (micrometers):
+    return micrometers * 1.0E-03
+
 
 
 
