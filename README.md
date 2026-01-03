@@ -28,3 +28,29 @@ git remote add origin git@github.com:tthen/conver.git
 git branch -M main
 git push -u origin main
 ```
+
+
+### Python Docstrings Tutorial : Examples & Format for Pydoc, Numpy, Sphinx Doc Strings
+<!-- https://www.freecodecamp.org/news/learn-software-design-basics/ -->
+
+Python documentation string, commonly known as docstring, is a string literal, and it is used in the class, module, function, or method definition. Docstrings are accessible from the doc attribute (__doc__) for any of the Python objects and also with the built-in help() function. An object's docstring is defined by including a string constant as the first statement in the object's definition.
+
+The general format for writing a Multi-line Docstring is as follows:
+
+```python
+def some_function(argument1):
+    """Summary or Description of the Function
+
+    Parameters:
+    argument1 (int): Description of arg1
+
+    Returns:
+    int:Returning value
+
+   """
+
+    return argument1
+
+print(some_function.__doc__)
+```
+
